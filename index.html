@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--StyleSheets-->
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <header >
+
+            <div class="navbar-container">
+            <a href = "#"><img class="main-logo" src="/Lucky-Shrub-logos/Asset 3@3x.png"></a>
+             <!--Navigation Bar-->
+             
+             <nav>
+                <ul>
+                    <li><a href="#">PLANTS</a></li>
+                    <li><a href = "#">POTS</a></li>
+                    <li><a href = "#">SEEDS</a></li>
+                    <li><a href = "#">TOOLS</a></li>
+                    <li><a href = "#">GIFTS</a></li>
+                </ul>
+             </nav>
+            </div>
+        </header>
+       
+
+        <!--Main -->
+        <main class="content">
+            <!-- Full Width Box-->
+            <section class="promotion">
+                <img src="/img2.jpg" alt = "Garden">
+            </section>
+        
+        
+            <div class="promotion-banner container">
+                <h2 class="banner-heading">Experience the Magic of Growing Plants</h2>
+                <p>Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance and landscaping. The company also runs a small plant nursery that sells indoor and outdoor plants, making them a one-stop shop for clients to "transform any space into an oasis you can be proud of".</p>
+            </div>
+        <!-- Thre 1/3 width boxes-->
+        <section class="article-container">
+            <article class="col-inner column-1">
+            <h2 class="col-heading">Plants,Simplified</h2>
+            <p class="col-p">
+                Order plants ready to be placed in your home, office or garden. Just Unpack, Relax and Enjoy your green buddies.
+            </p>
+            </article>
+            <article class="col-inner column-2">
+            <h2 class="col-heading">Secure Shipping</h2>
+            <p class="col-p">
+                Our unique packaging will hold the plants in place and let the plant breathe, so that it reaches you fresh without any mess. All Major Cities of US.
+            </p>
+            </article>
+            <article class="col-inner column-3">
+            <h2 class="col-heading">Detailed Guidance</h2>
+            <p class="col-p">
+                Get detailed plant care instructions from the website as well as real-time guidance from our Garden Experts on Whatsapp, or you can meet them in person at our nursery.
+            </p>
+            </article>
+        </section>
+
+    </main>
+        <!--Footer-->
+        <footer>
+        
+            <div class="contact-us">
+                <h4>Contact Us- We'd Love to Hear From You!:)</h4>
+                <a href="mailto:info@luckyshrub.org" mailto:>info@luckyshrub.com</a>
+            </div>
+
+            <div class = "copyright">
+                <img src="/Lucky-Shrub-logos/Asset 2@3x.png">
+                <p>Copyright © 2022 Lucky Shrub All rights reserved</p>
+            </div>
+       
+        </footer>
+    </body>
+    <script>
+        // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var header = document.querySelector("header");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+    </script>
+</html>
