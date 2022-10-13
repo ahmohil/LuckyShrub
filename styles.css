@@ -1,7 +1,20 @@
 *{
     margin: 0px;
     padding: 0px;
+  
+}
 
+
+/*media queries for responsiveness */
+@media (max-width: 1100px) {
+    .main-logo{
+        display: block;
+        margin: 0px 45%;
+    }
+
+    header{
+        display:block;
+    }
 }
 
 
@@ -14,6 +27,7 @@ header{
     display:flex;
     background-color: #4D473E;
     padding: 15px 0;
+    z-index: 7;
 }
 
 .sticky {
@@ -124,6 +138,17 @@ footer{
     float:left;
     margin:40px 40px;
 }
+
+.contact-us a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact-us a:hover{
+    text-decoration: none;
+    color:green;
+    transform: scale(2);
+}
 .copyright{
     margin:20px;
     float: right;
@@ -134,3 +159,66 @@ footer{
     width: 40px;
     height: auto;
 }
+
+
+.carousal{
+    position: relative;
+}
+
+.red{
+    color:rgb(162, 8, 8);
+}
+
+.carousel-caption{
+    display: grid;
+    place-items:left;
+    background-color: rgba(255, 255, 255,30%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    
+}
+
+.caption-heading{
+    letter-spacing: 2px;
+}
+
+/* Navbar DropDowns */
+.dropdown-content{
+    display:none;
+    position:absolute;
+    z-index: 5;
+    background-color: #e4e4e4;
+    padding: 2rem;
+    width: 210px;
+    line-height: 1.9;
+    border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+    text-decoration: none;
+}
+
+.dropdown:hover{
+    border-top: 2px solid green;
+    
+}
+.dropdown-content a{
+    color: black;
+}
+
+.dropdown-content a:hover{
+    text-decoration: none;
+    color: green;
+
+}
+
+.dropbtn{
+    background-color: transparent;
+    border:none;
+    text-transform: uppercase;
+    padding:20px;
+    color: whitesmoke;
+}
+
